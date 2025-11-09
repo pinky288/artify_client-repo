@@ -14,7 +14,7 @@ const Navbar = ({ user }) => {
         </Link>
       </div>
 
-      <div className="flex space-x-6">
+      <div className="flex space-x-6 font-semibold">
         <Link to="/" className="hover:underline">Home</Link>
         <Link to="/explore" className="hover:underline">Explore Artworks</Link>
         <Link to="/add-artwork" className="hover:underline">Add Artwork</Link>
@@ -22,7 +22,7 @@ const Navbar = ({ user }) => {
         <Link to="/favorites" className="hover:underline">My Favorites</Link>
       </div>
 
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center font-semibold space-x-4 ">
         {!user ? (
           <>
             <Link to="/login" className="bg-white text-black px-4 py-1 rounded hover:bg-gray-100">Login</Link>
