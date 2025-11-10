@@ -1,10 +1,12 @@
 import React from "react";
-import Banner from "../assets/components/Banner"
+import Banner from "../assets/components/Banner";
+import Featured from "./Featured";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full">
       <Banner />
+      <Featured />
     </div>
   );
 };
