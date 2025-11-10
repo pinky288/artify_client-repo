@@ -26,8 +26,7 @@ const Navbar = ({ user }) => {
         {!user ? (
           <>
             <Link to="/login" className="bg-white text-black px-4 py-1 rounded hover:bg-gray-100">Login</Link>
-            <Link to="/register" className="bg-white text-black px-4 py-1 rounded hover:bg-gray-100">Register</Link>
-          </>
+            <Link to="/register" className="bg-white text-black px-4 py-1 rounded hover:bg-gray-100">Register</Link></>
         ) : (
           <div className="relative group">
      <img src={user.photoURL} alt={user.displayName} className="w-10 h-10 rounded-full cursor-pointer"/>
@@ -35,11 +34,11 @@ const Navbar = ({ user }) => {
               <p className="px-4 py-2">{user.displayName}</p>
               <button className="w-full text-left px-4 py-2 hover:bg-red-100 text-red-500">Logout</button>
             </div>
-    </div>
-        )}
-      </div>
+       </div>
+    )}
+     </div>
     </nav>
-  );
+ );
 };
 
 export default Navbar;
