@@ -77,9 +77,9 @@ const ArtworkDetails = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 px-4 py-10">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-blue-900 to-indigo-900 px-4 py-10">
       <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">
-        <img src={artwork.imageURL} alt={artwork.title} className="w-full rounded-lg shadow-lg mb-6" />
+        <img src={artwork.imageURL} alt={artwork.title} className="w-full rounded-lg shadow-lg mb-8" />
         <h1 className="text-3xl font-bold mb-2">{artwork.title}</h1>
         <p className="text-gray-600 mb-2"><strong>Artist:</strong> {artwork.artistName}</p>
         <p className="text-gray-600 mb-2"><strong>Category:</strong> {artwork.category}</p>
