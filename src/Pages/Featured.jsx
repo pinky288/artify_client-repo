@@ -115,7 +115,7 @@ const Featured = () => {
             {communityHighlights.map((art, idx) => (
               <div key={idx} className="border rounded-lg overflow-hidden shadow hover:shadow-lg transition transform hover:-translate-y-1">
                 <img src={art.img} alt={art.title} className="w-full h-52 object-cover" />
-            <div className="p-4">
+            <div className="p-6">
                   <h3 className="text-xl font-semibold">{art.title}</h3>
                  <p className="text-gray-500">{art.artist}</p>
                 <p className="text-sm mt-1 text-gray-400">{art.category}</p>

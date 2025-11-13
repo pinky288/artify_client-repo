@@ -35,6 +35,8 @@ const AddArtwork = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!user) return;
@@ -55,7 +57,6 @@ const AddArtwork = () => {
   };
 
   if (loading) return <Loader />;
-
   return (
     <div className="pt-[60px] min-h-[calc(100vh-72px)] flex items-start justify-center bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-4">
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-2xl p-8 animate-fadeIn">
@@ -77,7 +78,7 @@ const AddArtwork = () => {
           </div>
         )}
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+     <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="text"
             name="imageURL"
