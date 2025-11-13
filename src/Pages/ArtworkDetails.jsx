@@ -96,7 +96,7 @@ const ArtworkDetails = () => {
           <button
             onClick={handleLike}
             className={`px-6 py-2 rounded-lg text-white transition ${
-              liked ? "bg-red-500 hover:bg-red-600" : "bg-gray-500 hover:bg-gray-600"
+              liked ? "bg-pink-500 hover:bg-red-600" : "bg-gray-500 hover:bg-gray-600"
             }`}
           >
             ❤️ {localLikes}
