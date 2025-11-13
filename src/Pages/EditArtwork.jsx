@@ -57,7 +57,7 @@ const EditArtwork = () => {
        placeholder="Image URL"
        name="imageURL" className="input w-full"
           value={formData.imageURL || ""}
-       onChange={handleChange}   required/>
+       onChange={handleChange} required/>
         <input
           type="text"
           placeholder="Title"
