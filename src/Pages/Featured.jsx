@@ -58,7 +58,7 @@ const Featured = () => {
           <p className="text-center text-gray-600 mb-8">
             Discover our curated selection of trending artworks from talented artists worldwide.
           </p>
-      <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8">
             <span className="w-24 h-1 bg-blue-500 rounded-full"></span>
      </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
