@@ -21,7 +21,7 @@ const MyFavorites = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 px-4 py-10 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold mb-3 text-center text-gray-900 dark:text-white">
+        <h1 className="text-3xl font-bold mb-3 text-center text-gray-900 text-white">
           My Favorites
         </h1>
         <p className="text-center text-gray-600 dark:text-gray-300 mb-8">
@@ -30,7 +30,7 @@ const MyFavorites = () => {
 
         {favorites.length === 0 ? (
           <p className="text-gray-500 text-center dark:text-gray-400">
-            No favorite artworks yet.{" "}
+            No favorite artworks yet!{" "}
             <Link to="/explore" className="text-blue-500 dark:text-blue-400 underline">
               Explore Artworks
             </Link>
