@@ -143,8 +143,8 @@ const AddArtwork = () => {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 text-white p-3 rounded-lg hover:bg-indigo-700 font-semibold transition-transform transform hover:scale-105"
-          >   Add Artwork
+            className="w-full bg-linear-to-br from-purple-900 via-blue-900 to-indigo-900 text-white p-3 rounded-lg hover:bg-indigo-700 font-semibold transition-transform transform hover:scale-105"
+          >   Add Artworks
               </button>
         </form>
    </div>
